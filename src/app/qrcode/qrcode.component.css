@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+.background{
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    padding: 1rem;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    text-align: center;
+}
+
+.qr-image{
+    border-radius: 10px;
+    width: 300px;
+    margin-bottom: 1rem;
+}
+
+.styling-text{
+    color: hsl(220, 15%, 55%);
+    font-family: 'Dongle', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 15px;
+    margin-bottom: 1rem;
+    width: 300px;
+}
+
+.styling-title{
+    color: hsl(218, 44%, 22%);
+    font-family: 'Dongle', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 25px;
+    margin-bottom: .7rem;
+    width: 300px;
+}
